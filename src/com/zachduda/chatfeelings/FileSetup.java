@@ -582,13 +582,22 @@ public class FileSetup {
         setEmotesBoolean("Feelings.Peck.Enable", true);
         setEmotes("Feelings.Peck.Msgs.Sender", "&7You Violently Peck &e&l%player%&r&7!");
         setEmotes("Feelings.Peck.Msgs.Target", "&7You are Violently Pecked by &e&l%player%&r&7!");
-        setEmotes("Feelings.Peck.Msgs.Target", "&7With all their might, you are pecked by &e&l%player%&7!");
         setEmotesDouble("Feelings.Peck.Sounds.Sound1.Volume", Double.valueOf(2.0D));
         setEmotesDouble("Feelings.Peck.Sounds.Sound1.Pitch", Double.valueOf(1.0D));
         setEmotes("Feelings.Peck.Sounds.Sound1.Name", "ENTITY_PARROT_HURT");
         setEmotesDouble("Feelings.Peck.Sounds.Sound2.Volume", Double.valueOf(2.0D));
         setEmotesDouble("Feelings.Peck.Sounds.Sound2.Pitch", Double.valueOf(1.0D));
         setEmotes("Feelings.Peck.Sounds.Sound2.Name", "ENTITY_PARROT_DEATH");
+
+        setEmotesBoolean("Feelings.Bonk.Enable", true);
+        setEmotes("Feelings.Bonk.Msgs.Sender", "&7You Bonk &e&l%player%&r&7 on the head!");
+        setEmotes("Feelings.Bonk.Msgs.Target", "&7You get bonked by &e&l%player%&r&7 with a baseball bat!");
+        setEmotesDouble("Feelings.Bonk.Sounds.Sound1.Volume", Double.valueOf(0.3D));
+        setEmotesDouble("Feelings.Bonk.Sounds.Sound1.Pitch", Double.valueOf(1.0D));
+        setEmotes("Feelings.Bonk.Sounds.Sound1.Name", "ENTITY_SHULKER_HURT");
+        setEmotesDouble("Feelings.Bonk.Sounds.Sound2.Volume", Double.valueOf(0.5D));
+        setEmotesDouble("Feelings.Bonk.Sounds.Sound2.Pitch", Double.valueOf(0.0D));
+        setEmotes("Feelings.Bonk.Sounds.Sound2.Name", "ENTITY_PIG_STEP");
 
         try {
             Sound.valueOf("AMBIENT_NETHER_WASTES_MOOD");

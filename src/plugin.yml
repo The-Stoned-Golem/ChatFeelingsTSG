@@ -59,3 +59,5 @@ commands:
     description: Say farewell, and wave aideu. How elegant!
   peck:
     description: Peck you friends like the bird you are!
+  bonk:
+    description: Bonk your friends for being silly

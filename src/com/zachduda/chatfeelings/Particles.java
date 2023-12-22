@@ -58,6 +58,8 @@ public class Particles {
                     // No particle
                 } else if (label.equalsIgnoreCase("peck")) {
                     peckParticle(p);
+                } else if (label.equalsIgnoreCase("bonk")) {
+                    // No particle
                 } else {
                     plugin.getLogger().warning("Couldn't find Particle for: /" + label);
                 }
