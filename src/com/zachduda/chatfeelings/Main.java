@@ -65,7 +65,8 @@ public class Main extends JavaPlugin implements Listener {
             "pat",
             "stalk",
             "sus",
-            "wave"
+            "wave",
+            "peck"
         );
 
     private boolean hasess = false;

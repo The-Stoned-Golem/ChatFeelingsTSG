@@ -56,6 +56,8 @@ public class Particles {
                     // No particle
                 } else if (label.equalsIgnoreCase("sus")) {
                     // No particle
+                } else if (label.equalsIgnoreCase("peck")) {
+                    peckParticle(p);
                 } else {
                     plugin.getLogger().warning("Couldn't find Particle for: /" + label);
                 }
@@ -68,6 +70,11 @@ public class Particles {
                 }
             }
         }
+
+    private static void peckParticle(Player p) {
+        World world = p.getLocation().getWorld();
+        world.spawnParticle(Particle.CLOUD, p.getLocation().add(0.0D, 1.0D, 0.0D), 9, 1.0D, 0.5D, 1.0D);
+    }
 
 	private static void hugParticle(Player p) {
         World world = p.getLocation().getWorld();

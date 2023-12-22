@@ -325,6 +325,7 @@ public class FileSetup {
         setMsgs("Command_Descriptions.Pat", "Pat a players head for being good.");
         setMsgs("Command_Descriptions.Stalk", "Stalk a player carefully... carefully.");
         setMsgs("Command_Descriptions.Sus", "Pure single-boned suspicion.");
+        setMsgs("Command_Descriptions.Peck", "Peck a player like the bird you are!");
         setMsgs("Command_Descriptions.Wave", "Say frewell, and wave aideu. How elegant!");
         setMsgsVersion(11);
 
@@ -577,6 +578,17 @@ public class FileSetup {
         setEmotes("Feelings.Sus.Msgs.Sender", "&7You look at &e&l%player%&r&7's single-boned body in suspicion.");
         setEmotes("Feelings.Sus.Msgs.Target", "&e&l%player% &r&7suspiciously looks at your single-boned body.");
         setEmotes("Feelings.Sus.Msgs.Global", "&e&l%sender% &r&7looks at &6&l%target% &r&7in single-boned suspicion.");
+
+        setEmotesBoolean("Feelings.Peck.Enable", true);
+        setEmotes("Feelings.Peck.Msgs.Sender", "&7You Violently Peck &e&l%player%&r&7!");
+        setEmotes("Feelings.Peck.Msgs.Target", "&7You are Violently Pecked by &e&l%player%&r&7!");
+        setEmotes("Feelings.Peck.Msgs.Target", "&7With all their might, you are pecked by &e&l%player%&7!");
+        setEmotesDouble("Feelings.Peck.Sounds.Sound1.Volume", Double.valueOf(2.0D));
+        setEmotesDouble("Feelings.Peck.Sounds.Sound1.Pitch", Double.valueOf(1.0D));
+        setEmotes("Feelings.Peck.Sounds.Sound1.Name", "ENTITY_PARROT_HURT");
+        setEmotesDouble("Feelings.Peck.Sounds.Sound2.Volume", Double.valueOf(2.0D));
+        setEmotesDouble("Feelings.Peck.Sounds.Sound2.Pitch", Double.valueOf(1.0D));
+        setEmotes("Feelings.Peck.Sounds.Sound2.Name", "ENTITY_PARROT_DEATH");
 
         try {
             Sound.valueOf("AMBIENT_NETHER_WASTES_MOOD");
