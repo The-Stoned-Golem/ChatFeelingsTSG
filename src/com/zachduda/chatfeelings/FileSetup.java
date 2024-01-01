@@ -599,6 +599,16 @@ public class FileSetup {
         setEmotesDouble("Feelings.Bonk.Sounds.Sound2.Pitch", Double.valueOf(0.0D));
         setEmotes("Feelings.Bonk.Sounds.Sound2.Name", "ENTITY_PIG_STEP");
 
+        setEmotesBoolean("Feelings.Boop.Enable", true);
+        setEmotes("Feelings.Boop.Msgs.Sender", "&7You Boop &d&l%player%&r&7 on the nose");
+        setEmotes("Feelings.Boop.Msgs.Target", "&dAww! &7You are booped by &d&l%player%&r&7!");
+        setEmotesDouble("Feelings.Boop.Sounds.Sound1.Volume", Double.valueOf(0.3D));
+        setEmotesDouble("Feelings.Boop.Sounds.Sound1.Pitch", Double.valueOf(1.0D));
+        setEmotes("Feelings.Boop.Sounds.Sound1.Name", "ENTITY_CAT_PURREOW");
+        setEmotesDouble("Feelings.Boop.Sounds.Sound2.Volume", Double.valueOf(0.5D));
+        setEmotesDouble("Feelings.Boop.Sounds.Sound2.Pitch", Double.valueOf(1.0D));
+        setEmotes("Feelings.Boop.Sounds.Sound2.Name", "ENTITY_CAT_PURR");
+
         try {
             Sound.valueOf("AMBIENT_NETHER_WASTES_MOOD");
             setEmotes("Feelings.Sus.Sounds.Sound1.Name", "AMBIENT_NETHER_WASTES_MOOD");

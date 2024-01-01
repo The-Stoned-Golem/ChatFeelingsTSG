@@ -61,3 +61,5 @@ commands:
     description: Peck you friends like the bird you are!
   bonk:
     description: Bonk your friends for being silly
+  boop:
+    description: Boop your friends on the nose
