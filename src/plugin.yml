@@ -63,3 +63,5 @@ commands:
     description: Bonk your friends for being silly
   boop:
     description: Boop your friends on the nose
+  sneeze:
+    description: Sneeze your heart out! careful using this around Chilly

@@ -609,6 +609,16 @@ public class FileSetup {
         setEmotesDouble("Feelings.Boop.Sounds.Sound2.Pitch", Double.valueOf(1.0D));
         setEmotes("Feelings.Boop.Sounds.Sound2.Name", "ENTITY_CAT_PURR");
 
+        setEmotesBoolean("Feelings.Sneeze.Enable", true);
+        setEmotes("Feelings.Sneeze.Msgs.Sender", "&7You sneeze violently on &c&l%player%&r&7, you hear chilly scream in the distance");
+        setEmotes("Feelings.Sneeze.Msgs.Target", "&c&l%player% &7Sneezes on you!");
+        setEmotesDouble("Feelings.Sneeze.Sounds.Sound1.Volume", Double.valueOf(0.3D));
+        setEmotesDouble("Feelings.Sneeze.Sounds.Sound1.Pitch", Double.valueOf(1.0D));
+        setEmotes("Feelings.Sneeze.Sounds.Sound1.Name", "ENTITY_GHAST_SCREAM");
+        setEmotesDouble("Feelings.Sneeze.Sounds.Sound2.Volume", Double.valueOf(0.5D));
+        setEmotesDouble("Feelings.Sneeze.Sounds.Sound2.Pitch", Double.valueOf(1.0D));
+        setEmotes("Feelings.Sneeze.Sounds.Sound2.Name", "ENTITY_PANDA_SNEEZE");
+
         try {
             Sound.valueOf("AMBIENT_NETHER_WASTES_MOOD");
             setEmotes("Feelings.Sus.Sounds.Sound1.Name", "AMBIENT_NETHER_WASTES_MOOD");

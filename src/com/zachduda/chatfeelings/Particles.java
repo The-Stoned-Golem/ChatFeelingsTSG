@@ -64,6 +64,8 @@ public class Particles {
                 } else if (label.equalsIgnoreCase("boop")) {
                     World world = p.getLocation().getWorld();
                     world.spawnParticle(Particle.HEART, p.getLocation().add(0.0D, 1.0D, 0.0D), 9, 1.0D, 0.5D, 1.0D);  
+                } else if (label.equalsIgnoreCase("sneeze")) {
+                    // No Particle
                 } else {
                     plugin.getLogger().warning("Couldn't find Particle for: /" + label);
                 }
